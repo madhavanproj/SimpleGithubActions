@@ -1,9 +1,9 @@
-name: Run Shell Commands
+name: RunShellCommand
 on: [push]
 
 jobs:
   run-shell-command:
     runs-on: ubuntu-latest
     steps:
-      name: Echo a String
+    - name: Echo a String
       run: echo "Hello! Welcome to Agentic DevsecOps training"
